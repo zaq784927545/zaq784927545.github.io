@@ -4,11 +4,6 @@ function  showPic(whichpic) {
  placeholder.setAttribute("src",source);
  var text = whichpic.getAttribute("title");
  var description = document.getElementById("description");
-}
-function countBodyChildren(){
- var body_element = document.getElementsByTagName("body")[0];
- alert (body_element.childNodes.length);
-}
 window.onload = countBodyChildren;
 function showPic(whichpic){
  var source = whichpic.getAttribute("href");
